@@ -1,0 +1,70 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/classification/classification",
+    "pages/shop/shop",
+    "pages/test/test",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/settlement/settlement",
+    "pages/details/details",
+    "pages/preferential/preferential",
+    "pages/userAddress/userAddress",
+    "pages/newAddress/newAddress",
+    "pages/delivery/delivery"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Flower Taste",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "backgroundColor": "#FFC0CB"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#FFC0CB",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/3.1.png",
+        "selectedIconPath": "static/img/3.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classification/classification",
+        "iconPath": "static/img/fenlei.png",
+        "selectedIconPath": "static/img/fenlei2.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/img/dianpu2.png",
+        "selectedIconPath": "static/img/dianpu.png",
+        "text": "店铺"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/img/gouwuche2.png",
+        "selectedIconPath": "static/img/gouwuche.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/img/my2.png",
+        "selectedIconPath": "static/img/my.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "倾城花艺需要获取您的地址"
+    }
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {}
+}

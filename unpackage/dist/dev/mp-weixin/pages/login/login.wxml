@@ -1,0 +1,1 @@
+<view class="container"><view hidden="{{!b}}"><image class="avatar" src="{{a}}"></image></view><view hidden="{{!d}}"><image class="avatar" src="{{c}}"></image></view><text class="motto">Hello, {{e}}</text><view class="journey-container" bindtap="{{f}}"><text class="journey">开启小程序之旅</text></view></view>

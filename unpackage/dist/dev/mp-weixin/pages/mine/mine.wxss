@@ -1,0 +1,61 @@
+
+.content {
+		width: 100%;
+		height: auto;
+}
+.minpian {
+		width: 100%;
+		position: relative;
+}
+.minpian-img {
+		width: 100%;
+		height: 235rpx;
+}
+.minpian-img image {
+		width: 100%;
+		height: 100%;
+}
+.user-img {
+		width: 160rpx;
+		height: 160rpx;
+		border: 1px solid red;
+		border-radius: 50%;
+		position: absolute;
+		top: 40rpx;
+		left: 100rpx;
+}
+.minpian-bianhao {
+		position: absolute;
+		top: 85rpx;
+		left: 300rpx;
+		font-weight: 200;
+}
+.xuaniang {
+		width: 100%;
+}
+.xuaniang>view {
+		width: 100%;
+		height: 130rpx;
+		font-weight: 200;
+		font-size: 30rpx;
+		line-height: 130rpx;
+		padding: 0px 45px;
+		background-color: rgb(248, 248, 248);
+}
+.all {
+		display: flex;
+		flex-direction: row;
+		align-items: baseline;
+		position: relative;
+}
+.all-img {
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		top: 20rpx;
+		left: 25rpx;
+}
+.all-img image {
+		width: 100%;
+		height: 100%;
+}

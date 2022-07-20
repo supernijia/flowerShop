@@ -1,0 +1,68 @@
+
+.content {
+		width: 100%;
+		height: auto;
+}
+.header-img {
+		width: 100%;
+		height: 430rpx;
+		margin-bottom: 20rpx;
+}
+.header-img image {
+		width: 100%;
+		height: 100%;
+}
+.dipu-body {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20rpx 40rpx;
+		font-size: 26rpx;
+		position: relative;
+}
+.dipu-body-dizhi {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+}
+.dipu-body-dizhi text {
+		margin-left: 10rpx;
+}
+.dipu-body-dizhi-img {
+		width: 30rpx;
+		height: 30rpx;
+}
+.dipu-body>image {
+		width: 45rpx;
+		height: 45rpx;
+		position: absolute;
+		top: 80rpx;
+		right: 75rpx;
+}
+.dipu-body-dianhua {
+		padding: 10rpx 40rpx;
+}
+.dipu-body-usermsg,
+	.dipu-body-yinye {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px 20px;
+}
+.dipu-body-usermsg-title {
+		font-size: 30rpx;
+		font-weight: 400;
+		padding-left: 25rpx;
+		margin-bottom: 20rpx;
+		border-left: 10rpx solid lightblue;
+}
+.dipu-body-usermsg-title-body {
+		font-size: 26rpx;
+		letter-spacing: 2rpx;
+		color: rgb(107, 107, 107);
+}
+.map {
+		box-sizing: border-box;
+		padding: 10px;
+}

@@ -1,0 +1,28 @@
+
+.content {
+		width: 100%;
+		height: auto;
+}
+.addlist {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+}
+.info {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		font-size: 24rpx;
+}
+.infotitle {
+		width: 180rpx;
+		height: 100%;
+}
+.infotitle > view {
+		margin: 10rpx 0;
+}
+.addnewadd {
+		width: 60%;
+		margin-top: 220rpx;
+		background-color: #FFB6C1;
+}

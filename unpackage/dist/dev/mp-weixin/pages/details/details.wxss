@@ -1,0 +1,51 @@
+
+.content {
+	width: 100%;
+	height: auto;
+}
+.xiangqing-img{
+  width: 100%;
+  height: 730rpx;
+  box-sizing: border-box;
+  padding:30rpx 30rpx;
+  background-color: #FFFAFA;
+}
+.xiangqing-img image{
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+.xiangqing-name{
+  margin-top: 20rpx;
+  width: 100%;
+  padding:5px 10px;
+  font-weight: 200;
+}
+.xiangqing-price{
+  font-weight: 200;
+  font-size: 28rpx;
+  color: #f60;
+  padding:5px 10px;
+}
+.xiangqing-msg{
+  margin-top: 20rpx;
+  width: 100%;
+  padding:5px 10px;
+  font-size: 30rpx;
+  font-weight: 200;
+}
+.jiaru{
+    width: 70%;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-weight: 200;
+  text-align: center;
+	margin-top: 200rpx;
+  border-radius: 5px;
+  background-color: #ff0000;
+  color: white;
+}
+.addcart {
+
+	background-color: lightpink;
+}

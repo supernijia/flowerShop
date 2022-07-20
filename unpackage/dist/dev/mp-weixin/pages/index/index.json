@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "Flower Taste",
+  "usingComponents": {
+    "carousel": "../../components/home/carousel",
+    "home-main": "../../components/home/homeMain",
+    "preferential": "../../components/home/preferential",
+    "special-price": "../../components/home/specialPrice",
+    "group": "../../components/home/group"
+  }
+}

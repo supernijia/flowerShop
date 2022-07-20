@@ -1,0 +1,1 @@
+<view class="img-all"><view class="img-all-text img-all-text-right"><view>{{a}}</view><view>{{b}}</view></view><image src="{{c}}"></image></view>

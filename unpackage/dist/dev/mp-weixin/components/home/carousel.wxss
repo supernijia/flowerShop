@@ -1,0 +1,13 @@
+
+.content{
+		width: 100%;
+		height: 360rpx;
+}
+.swiper-rotation {
+		width: 100%;
+		height: 360rpx;
+}
+.items {
+		width: 100%;
+		height: 360rpx;
+}

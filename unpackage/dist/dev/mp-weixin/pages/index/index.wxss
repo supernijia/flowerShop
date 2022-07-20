@@ -1,0 +1,80 @@
+
+.swiper-rotation {
+		width: 100%;
+		height: 360rpx;
+}
+.notice {
+		width: 100%;
+		height: 60rpx;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+}
+.warns {
+		z-index: 999;
+		background-color: white;
+		padding: 15rpx;
+		float: left;
+}
+.warn-text {
+		font-size: 20rpx;
+		padding: 0 15rpx;
+		animation: activity 5s linear infinite;
+}
+.homeMian {
+		height: 180rpx;
+}
+.screen {
+		width: 100%;
+		height: auto;
+		margin-top: 30rpx;
+		border-bottom: 20rpx solid #cbcbcb;
+}
+.screen:last-child {
+		width: 100%;
+		height: auto;
+		margin-top: 30rpx;
+		border-bottom: none;
+}
+.screen-title {
+		width: 60%;
+		margin: 0 auto;
+		margin-top: 50rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+.screen-header {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+}
+.screen-header image {
+		width: 40rpx;
+		height: 40rpx;
+		display: block;
+}
+.screen-header text {
+		font-size: 24rpx;
+		padding: 0 10rpx;
+}
+.screen-subtitle {
+		font-size: 16rpx;
+}
+.Jizan {
+		width: 100%;
+		height: 250rpx;
+		margin-bottom: 20rpx;
+}
+@keyframes activity {
+from {
+			transform: translateX(0px);
+}
+to {
+			transform: translateX(-100%);
+}
+}

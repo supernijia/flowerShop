@@ -1,0 +1,1 @@
+<view class="content"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="chose-item" bindtap="{{item.c}}"><image class="chose-img" src="{{item.a}}"></image><text>{{item.b}}</text></view></block></view>

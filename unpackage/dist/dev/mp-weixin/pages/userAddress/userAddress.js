@@ -1,0 +1,65 @@
+"use strict";
+var __defProp = Object.defineProperty;
+var __defProps = Object.defineProperties;
+var __getOwnPropDescs = Object.getOwnPropertyDescriptors;
+var __getOwnPropSymbols = Object.getOwnPropertySymbols;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __propIsEnum = Object.prototype.propertyIsEnumerable;
+var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
+var __spreadValues = (a, b) => {
+  for (var prop in b || (b = {}))
+    if (__hasOwnProp.call(b, prop))
+      __defNormalProp(a, prop, b[prop]);
+  if (__getOwnPropSymbols)
+    for (var prop of __getOwnPropSymbols(b)) {
+      if (__propIsEnum.call(b, prop))
+        __defNormalProp(a, prop, b[prop]);
+    }
+  return a;
+};
+var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+var common_vendor = require("../../common/vendor.js");
+const _sfc_main = {
+  data() {
+    return {
+      current: 0
+    };
+  },
+  components: {},
+  computed: __spreadValues({}, common_vendor.mapState({
+    userAddinfoArr: (state) => state.user.userAddinfoArr
+  })),
+  onLoad() {
+  },
+  onShow() {
+  },
+  methods: __spreadProps(__spreadValues({}, common_vendor.mapMutations(["addNewAddr", "getbackSettlement"])), {
+    radioChange(evt) {
+      for (let i = 0; i < this.userAddinfoArr.length; i++) {
+        if (this.userAddinfoArr[i].value === evt.detail.value) {
+          this.current = i;
+          break;
+        }
+      }
+    }
+  })
+};
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return {
+    a: common_vendor.f(_ctx.userAddinfoArr, (item, index, i0) => {
+      return {
+        a: item.name,
+        b: index === $data.current,
+        c: common_vendor.t(item.name),
+        d: common_vendor.t(item.tel),
+        e: common_vendor.t(item.address),
+        f: common_vendor.o(($event) => _ctx.getbackSettlement(item)),
+        g: index
+      };
+    }),
+    b: common_vendor.o((...args) => $options.radioChange && $options.radioChange(...args)),
+    c: common_vendor.o((...args) => _ctx.addNewAddr && _ctx.addNewAddr(...args))
+  };
+}
+var MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "E:/\u56FD\u4FE1\u5B89\u6280\u672F\u8D44\u6599\u81EA\u505A/html/\u56DB\u9636\u6BB5\u9879\u76EE-\u5C0F\u7A0B\u5E8F/flower/pages/userAddress/userAddress.vue"]]);
+wx.createPage(MiniProgramPage);
